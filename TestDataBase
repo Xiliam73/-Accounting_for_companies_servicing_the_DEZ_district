@@ -1,0 +1,22 @@
+ID;Company Name;Taxpayer ID;Service Type;Contact Person;Phone Number;Email;Contract Date;Status
+1;CleanCity ООО;123456;Waste removal, Cleaning;Петров Иван;+79001234567;info@cleancity.ru;15.01.2023;Active
+2;RoadMasters ООО;98765;Road repairs;Сидорова Елена;+79007654321;contact@roadmasters.ru;10.11.2022;Active
+3;GreenTerritory ЗАО;567890;Landscaping, Maintenance;Иванов Алексей;+79005556677;office@greenter.com;22.03.2024;Inactive
+4;UtilityService ООО;345678;Electricity, Water supply;Кузнецова Мария;+79008889900;support@utilityserv.org;05.07.2023;Active
+5;UrbanGreen ЗАО;890123;Landscaping, Maintenance;Жуков Андрей;+79123456789;urban@greenservice.com;29.05.2024;Active
+6;EcoClean ООО;456789;Waste removal, Cleaning;Смирнов Дмитрий;+79012345678;eco@ecoclean.ru;12.05.2023;Active
+7;RoadFix ООО;12345;Road repairs;Лебедев Сергей;+79056789012;repair@roadfix.pro;25.09.2022;Active
+8;AquaVolt ЗАО;12346;Electricity, Water supply;Зайцева Алина;+79145678901;aqua@volt.org;13.12.2023;Active
+9;PureService ООО;789012;Waste removal, Cleaning;Козлова Анна;+79023456789;info@pureservice.org;30.08.2023;Active
+10;GreenSpace ЗАО;567893;Landscaping, Maintenance;Белова Татьяна;+79090123456;space@greenspace.ru;22.07.2023;Active
+11;AsphaltMaster ЗАО;234567;Road repairs;Новиков Игорь;+79067890123;master@asphalt.ru;17.06.2023;Active
+12;ServiceGrid ООО;234568;Electricity, Water supply;Семёнова Дарья;+79167890123;grid@servicegrid.pro;09.06.2024;Active
+13;CleanPro ЗАО;890124;Waste removal, Cleaning;Фёдоров Павел;+79034567890;contact@cleanpro.com;14.02.2024;Inactive
+14;EcoGarden ООО;678901;Landscaping, Maintenance;Кудрявцев Максим;+79101234567;garden@ecogarden.pro;05.10.2023;Active
+15;HighWayService ООО;345679;Road repairs;Волкова Екатерина;+79078901234;highway@service.com;08.12.2023;Inactive
+16;PowerWater ООО;901234;Electricity, Water supply;Тихонов Николай;+79134567890;power@watercom.ru;07.09.2023;Active
+17;TerraClean ООО;901235;Waste removal, Cleaning;Морозова Ольга;+79045678901;terra@terraclean.ru;03.11.2023;Active
+18;NatureCare ООО;789013;Landscaping, Maintenance;Орлова Виктория;+79112345678;care@naturecare.org;11.01.2024;Inactive
+19;RoadGuard ООО;456780;Road repairs;Соколов Артём;+79089012345;guard@roadguard.org;19.04.2024;Active
+20;UtilityPlus ООО;123457;Electricity, Water supply;Григорьев Пётр;+79156789012;plus@utilityplus.com;24.02.2024;Inactive
+0;;0;Waste removal, Cleaning;;+7()--;;01.01.2000;Inactive

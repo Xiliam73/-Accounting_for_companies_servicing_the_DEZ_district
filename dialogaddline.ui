@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogAddLine</class>
+ <widget class="QDialog" name="DialogAddLine">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>95</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="labelID">
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="7">
+    <widget class="QDateEdit" name="dateEditDate"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QComboBox" name="comboBoxServiceType"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>TaxPayer ID</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="8">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QSpinBox" name="spinBox_TaxPayerID"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Company Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QLineEdit" name="lineEditemail"/>
+   </item>
+   <item row="2" column="7">
+    <widget class="QPushButton" name="pushButtonOk">
+     <property name="text">
+      <string>Ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QLineEdit" name="lineEditPhoneNumber">
+     <property name="inputMask">
+      <string>+7(000)000-00-00</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Service Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Phone Number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="7">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="8">
+    <widget class="QCheckBox" name="checkBoxActive">
+     <property name="text">
+      <string>Active</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QLineEdit" name="lineEditContactName"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Contact Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QSpinBox" name="spinBoxID"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEditCompanyName"/>
+   </item>
+   <item row="0" column="6">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QPushButton" name="pushButtonCanel">
+     <property name="text">
+      <string>Canel</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonCanel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogAddLine</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>790</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>516</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

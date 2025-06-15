@@ -1,0 +1,21 @@
+ID;Company Name;Taxpayer ID (INN);Service Type;Contact Person;Phone Number;Email;Contract Date;Status
+1;CleanCity Ltd;123456;"Waste removal, Cleaning";Ivan Petrov;+79001234567;info@cleancity.ru;15.01.2023;Active
+2;RoadMasters LLC;098765;"Road repairs";Elena Sidorova;+79007654321;contact@roadmasters.ru;10.11.2022;Active
+3;GreenTerritory Inc;567890;"Landscaping, Maintenance";Alexey Ivanov;+79005556677;office@greenter.com;22.03.2024;Inactive
+4;UtilityService Co;345678;"Electricity, Water supply";Maria Kuznetsova;+79008889900;support@utilityserv.org;05.07.2023;Active
+5;UrbanGreen JSC;890123;"Landscaping, Maintenance";Zhukov Andrey;+79123456789;urban@greenservice.com;29.05.2024;Active
+6;EcoClean LLC;456789;"Waste removal, Cleaning";Smirnov Dmitry;+79012345678;eco@ecoclean.ru;12.05.2023;Active
+7;RoadFix LLC;012345;"Road repairs";Lebedev Sergey;+79056789012;repair@roadfix.pro;25.09.2022;Active
+8;AquaVolt JSC;012346;"Electricity, Water supply";Zaitseva Alina;+79145678901;aqua@volt.org;13.12.2023;Active
+9;PureService LLC;789012;"Waste removal, Cleaning";Kozlova Anna;+79023456789;info@pureservice.org;30.08.2023;Active
+10;GreenSpace JSC;567893;"Landscaping, Maintenance";Belova Tatyana;+79090123456;space@greenspace.ru;22.07.2023;Active
+11;AsphaltMaster JSC;234567;"Road repairs";Novikov Igor;+79067890123;master@asphalt.ru;17.06.2023;Active
+12;ServiceGrid LLC;234568;"Electricity, Water supply";Semenova Darya;+79167890123;grid@servicegrid.pro;09.06.2024;Active
+13;CleanPro JSC;890124;"Waste removal, Cleaning";Fedorov Pavel;+79034567890;contact@cleanpro.com;14.02.2024;Inactive
+14;EcoGarden LLC;678901;"Landscaping, Maintenance";Kudryavtsev Maxim;+79101234567;garden@ecogarden.pro;05.10.2023;Active
+15;HighWayService LLC;345679;"Road repairs";Volkova Ekaterina;+79078901234;highway@service.com;08.12.2023;Inactive
+16;PowerWater LLC;901234;"Electricity, Water supply";Tikhonov Nikolay;+79134567890;power@watercom.ru;07.09.2023;Active
+17;TerraClean LLC;901235;"Waste removal, Cleaning";Morozova Olga;+79045678901;terra@terraclean.ru;03.11.2023;Active
+18;NatureCare LLC;789013;"Landscaping, Maintenance";Orlova Victoria;+79112345678;care@naturecare.org;11.01.2024;Inactive
+19;RoadGuard LLC;456780;"Road repairs";Sokolov Artem;+79089012345;guard@roadguard.org;19.04.2024;Active
+20;UtilityPlus LLC;123457;"Electricity, Water supply";Grigoriev Peter;+79156789012;plus@utilityplus.com;24.02.2024;Inactive
