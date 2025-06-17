@@ -180,7 +180,7 @@ void MainWindow::saveFile(const QString &fileName)
 
 void MainWindow::dialogAbout()
 {
-    QMessageBox::information(this,tr("About"),tr("Developed by student ICTMS2-5\n Klimov Ivan Ilich"));
+    QMessageBox::information(this,tr("Разработка ПО учёта компаний, обслуживающих район ДЭЗ"),tr("Developed by student ICTMS2-5\n Klimov Ivan Ilich"));
 }
 
 void MainWindow::on_actionEdit_triggered(bool checked)
@@ -196,8 +196,6 @@ void MainWindow::handleNewCompany(const MyTableModel::company &cp)
 
 void MainWindow::on_actionAdd_line_triggered()
 {
-    // tableModel->addLine(3, "CleanCity Ltd", 1234567890 , MyTableModel::ServiceType::WasteRemoval, "Ivan Petrov", "+79001234567", "info@cleancity.ru", QDate::fromString("15.12.2023","dd.MM.yyyy"), MyTableModel::StatusType::Active);
-
     if(tableModel != nullptr){
         DialogAddLine dialog(this);
         connect(&dialog, &DialogAddLine::companyAdded, this, &MainWindow::handleNewCompany);

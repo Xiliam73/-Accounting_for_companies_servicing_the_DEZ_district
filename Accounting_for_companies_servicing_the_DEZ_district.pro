@@ -33,8 +33,8 @@ FORMS += \
 
 TRANSLATIONS += \
     translations\Accounting_for_companies_servicing_the_DEZ_district_ru_RU.ts \
-    translations\Accounting_for_companies_servicing_the_DEZ_district_en_US.ts
-
+    translations\Accounting_for_companies_servicing_the_DEZ_district_en_US.ts \
+    translations\Accounting_for_companies_servicing_the_DEZ_district_de_DE.ts
 
 
 # Default rules for deployment.

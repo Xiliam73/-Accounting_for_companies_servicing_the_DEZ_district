@@ -188,11 +188,17 @@
    </property>
   </action>
   <action name="actionSearch">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::SystemSearch"/>
+   </property>
    <property name="text">
     <string>Search</string>
    </property>
   </action>
   <action name="actionClear">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::SystemReboot"/>
+   </property>
    <property name="text">
     <string>Clear</string>
    </property>

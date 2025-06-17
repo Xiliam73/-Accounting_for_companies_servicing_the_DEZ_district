@@ -80,8 +80,11 @@ bool MyTableModel::LoadDataFromFile(const QString &fileName)
 
     QTextStream in(&file);
     QString line = in.readLine();
-    //можно использовать первую строку для инициализации колонок
+    if(line != "~Special stroke~")
+        return false;
 
+
+    line = in.readLine();
     while (!in.atEnd()) {
         QString line = in.readLine();
         QStringList parts = line.split(';');

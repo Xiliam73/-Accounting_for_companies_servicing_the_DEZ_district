@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.1" language="de_DE">
 <context>
     <name>DialogAddLine</name>
     <message>
         <location filename="../dialogaddline.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Диалог</translation>
+        <translation>Gespräch</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="20"/>
@@ -16,22 +16,22 @@
     <message>
         <location filename="../dialogaddline.ui" line="33"/>
         <source>TaxPayer ID</source>
-        <translation>ИНН</translation>
+        <translation>Steuernummer</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="40"/>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="50"/>
         <source>Company Name</source>
-        <translation>Название компании</translation>
+        <translation>Firmenname</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="60"/>
         <source>Ok</source>
-        <translation>Ок</translation>
+        <translation>Okay</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="67"/>
@@ -41,67 +41,67 @@
     <message>
         <location filename="../dialogaddline.ui" line="74"/>
         <source>Service Type</source>
-        <translation>Тип услуги</translation>
+        <translation>Diensttyp</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="81"/>
         <source>Phone Number</source>
-        <translation>Телефон</translation>
+        <translation>Telefonnummer</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="88"/>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="95"/>
         <source>Active</source>
-        <translation>Активна</translation>
+        <translation>Aktiv</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="105"/>
         <source>Contact Name</source>
-        <translation>Контактное лицо</translation>
+        <translation>Kontaktnamen</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="118"/>
         <source>Email</source>
-        <translation>Эл. Почта</translation>
+        <translation>Email</translation>
     </message>
     <message>
         <location filename="../dialogaddline.ui" line="125"/>
         <source>Canel</source>
-        <translation>Отмена</translation>
+        <translation>Canel</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="13"/>
         <source>Вывоз мусора, Уборка</source>
-        <translation>Вывоз мусора, Уборка</translation>
+        <translation>Müllabfuhr, Reinigung</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="14"/>
         <source>Ремонт дорог</source>
-        <translation>Ремонт дорог</translation>
+        <translation>Straßenreparaturen</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="15"/>
         <source>Озеленение, Обслуживание</source>
-        <translation>Озеленение, Обслуживание</translation>
+        <translation>Landschaftsbau, Wartung</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="16"/>
         <source>Электроснабжение, Водоснабжение</source>
-        <translation>Электроснабжение, Водоснабжение</translation>
+        <translation>Stromversorgung, Wasserversorgung</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="60"/>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../dialogaddline.cpp" line="60"/>
         <source>Invalid email</source>
-        <translation>Неправльная почта</translation>
+        <translation>Ungültige E-Mail-Adresse</translation>
     </message>
 </context>
 <context>
@@ -109,85 +109,84 @@
     <message>
         <location filename="../mainwindow.ui" line="20"/>
         <source>MainWindow</source>
-        <translation>Главное окно</translation>
+        <translation>Hauptfenster</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="65"/>
         <source>File</source>
-        <translation>Файл</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="35"/>
-        <location filename="../mainwindow.cpp" line="183"/>
-        <source>About</source>
-        <translation>О программе</translation>
+        <translation>Datei</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="74"/>
         <source>Language</source>
-        <translation>Язык</translation>
+        <translation>Sprachlich</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="79"/>
         <location filename="../mainwindow.ui" line="163"/>
         <source>Edit</source>
-        <translation>Редактировать</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="87"/>
         <source>Filter</source>
-        <translation>Фильтр</translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="100"/>
         <source>toolBar</source>
-        <translation>Инструменты</translation>
+        <translation>Symbolleiste</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="135"/>
         <source>Open</source>
-        <translation>Открыть</translation>
+        <translation>Öffnen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="143"/>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>Speichern</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="152"/>
         <source>Exit</source>
-        <translation>Выход</translation>
+        <translation>Ausfahrt</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="171"/>
         <source>Add line</source>
-        <translation>Добавить поле</translation>
+        <translation>Zeile hinzufügen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="179"/>
         <source>Remove line</source>
-        <translation>Удалить поле</translation>
+        <translation>Zeile entfernen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="187"/>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="195"/>
         <source>Search</source>
-        <translation>Поиск</translation>
+        <translation>Suche</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="203"/>
         <source>Clear</source>
-        <translation>Очистить</translation>
+        <translation>Klar</translation>
     </message>
     <message>
-        <source>Can&apos;t read file %1: 
-%2</source>
-        <translation type="vanished">Не получилось прочитать файл%1: 
-%2</translation>
+        <location filename="../mainwindow.cpp" line="34"/>
+        <source>Help</source>
+        <translation>Helfen</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="35"/>
+        <location filename="../mainwindow.cpp" line="183"/>
+        <source>About</source>
+        <translation>Über</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="155"/>
@@ -195,47 +194,36 @@
         <translation>&amp;%1 %2</translation>
     </message>
     <message>
-        <source>Can&apos;t write file %1: 
-%2</source>
-        <translation type="vanished">Не удалось сохранить файл %1: 
-%2</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="34"/>
-        <source>Help</source>
-        <translation>Помощь</translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="183"/>
         <source>Developed by student ICTMS2-5
  Klimov Ivan Ilich</source>
-        <translation>Разработано студентом группы ИЦТМС2-5 
-Климов Иван Ильич</translation>
+        <translation>Entwickelt von Student ICTMS2-5
+ Klimow Iwan Iljitsch</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="207"/>
         <source>Crash Report</source>
-        <translation>Ошибка</translation>
+        <translation>Absturzbericht</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="207"/>
         <source>TableModel doesn&apos;t exist</source>
-        <translation>TableModel не существует</translation>
+        <translation>TableModel existiert nicht</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="215"/>
         <source>Deletion Error</source>
-        <translation>Ошибка удаления</translation>
+        <translation>Löschfehler</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="215"/>
         <source>The table is empty</source>
-        <translation>Пустая таблица</translation>
+        <translation>Die Tabelle ist leer</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="234"/>
         <source>Таблица закрыта</source>
-        <translation>Таблица закрыта</translation>
+        <translation>Die Tabelle ist geschlossen</translation>
     </message>
 </context>
 <context>
@@ -243,85 +231,85 @@
     <message>
         <location filename="../mainwindow.cpp" line="153"/>
         <source>English</source>
-        <translation>Русский</translation>
+        <translation>Deutsch</translation>
     </message>
 </context>
 <context>
     <name>MyTableModel</name>
     <message>
-        <location filename="../mytablemodel.cpp" line="214"/>
-        <source>Road repairs</source>
-        <translation>Ремонт дорог</translation>
-    </message>
-    <message>
         <location filename="../mytablemodel.cpp" line="213"/>
         <source>Waste removal, Cleaning</source>
-        <translation>Вывоз мусора, Уборка</translation>
+        <translation>Abfallbeseitigung, Reinigung</translation>
+    </message>
+    <message>
+        <location filename="../mytablemodel.cpp" line="214"/>
+        <source>Road repairs</source>
+        <translation>Straßenreparaturen</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="215"/>
         <source>Landscaping, Maintenance</source>
-        <translation>Озеленение, Обслуживание</translation>
+        <translation>Landschaftsgestaltung, Instandhaltung</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="216"/>
         <source>Electricity, Water supply</source>
-        <translation>Электроснабжение, Водоснабжение</translation>
+        <translation>Strom, Wasserversorgung</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="233"/>
         <source>Active</source>
-        <translation>Активна</translation>
+        <translation>Aktiv</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="233"/>
         <source>Inactive</source>
-        <translation>Неактивна</translation>
+        <translation>Inaktiv</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="310"/>
         <source>id</source>
-        <translation>id</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="312"/>
         <source>Company Name</source>
-        <translation>Название компании</translation>
+        <translation>Firmenname</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="314"/>
         <source>Taxpayer ID</source>
-        <translation>ИНН</translation>
+        <translation>Steuernummer</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="316"/>
         <source>service</source>
-        <translation>Тип услуг</translation>
+        <translation>Service</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="318"/>
         <source>Contact Name</source>
-        <translation>Контактное лицо</translation>
+        <translation>Kontaktnamen</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="320"/>
         <source>Phone Number</source>
-        <translation>Телефон</translation>
+        <translation>Telefonnummer</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="322"/>
         <source>email</source>
-        <translation>Эл. почта</translation>
+        <translation>email</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="324"/>
         <source>Contract Date</source>
-        <translation>Дата договора</translation>
+        <translation>Vertragsdatum</translation>
     </message>
     <message>
         <location filename="../mytablemodel.cpp" line="326"/>
         <source>status</source>
-        <translation>Статус</translation>
+        <translation>status</translation>
     </message>
 </context>
 <context>
@@ -329,17 +317,17 @@
     <message>
         <location filename="../searchdialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Диалог</translation>
+        <translation>Gespräch</translation>
     </message>
     <message>
         <location filename="../searchdialog.ui" line="46"/>
         <source>Cancel</source>
-        <translation>Отменить</translation>
+        <translation>Abschaffen</translation>
     </message>
     <message>
         <location filename="../searchdialog.ui" line="59"/>
         <source>Ok</source>
-        <translation>Ок</translation>
+        <translation>ok</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="11"/>
@@ -349,42 +337,42 @@
     <message>
         <location filename="../searchdialog.cpp" line="12"/>
         <source>Название компании</source>
-        <translation>Название компании</translation>
+        <translation>Name des Unternehmens</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="13"/>
         <source>ИНН</source>
-        <translation>ИНН</translation>
+        <translation>INN</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="14"/>
         <source>Тип услуги</source>
-        <translation>Тип услуги</translation>
+        <translation>Art der Dienstleistung</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="15"/>
         <source>Контактное лицо</source>
-        <translation>Контактное лицо</translation>
+        <translation>Ansprechpartner</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="16"/>
         <source>Телефон</source>
-        <translation>Номер телефона</translation>
+        <translation>Telefon</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="17"/>
         <source>Email</source>
-        <translation>Эл. Почта</translation>
+        <translation>Email</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="18"/>
         <source>Дата контракта</source>
-        <translation>Дата контракта</translation>
+        <translation>Vertragsdatum</translation>
     </message>
     <message>
         <location filename="../searchdialog.cpp" line="19"/>
         <source>Статус</source>
-        <translation>Статус</translation>
+        <translation>Status</translation>
     </message>
 </context>
 </TS>

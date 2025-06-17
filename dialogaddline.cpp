@@ -1,4 +1,5 @@
 #include "dialogaddline.h"
+#include <QMessageBox>
 #include "ui_dialogaddline.h"
 
 
@@ -48,11 +49,17 @@ void DialogAddLine::on_pushButtonOk_clicked()
     else
         statusType = MyTableModel::StatusType::Inactive;
 
+    QRegularExpression regex("^[^@]+@[^@]+$");
+    if (regex.match(ui->lineEditemail->text()).hasMatch())
+    {
+        MyTableModel::company current(ui->spinBoxID->value(),ui->lineEditCompanyName->text(),ui->spinBox_TaxPayerID->value(),serviceType, ui->lineEditContactName->text(), ui->lineEditPhoneNumber->text(), ui->lineEditemail->text(), ui->dateEditDate->date(), statusType);
+        emit companyAdded(current);
+    }
+
+    else
+        QMessageBox::information(this,tr("Error"),tr("Invalid email"));
 
 
-
-    MyTableModel::company current(ui->spinBoxID->value(),ui->lineEditCompanyName->text(),ui->spinBox_TaxPayerID->value(),serviceType, ui->lineEditContactName->text(), ui->lineEditPhoneNumber->text(), ui->lineEditemail->text(), ui->dateEditDate->date(), statusType);
-    emit companyAdded(current);
     this->close();
 }
 
