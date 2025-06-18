@@ -178,50 +178,54 @@
         <translation>Klar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="34"/>
+        <location filename="../mainwindow.cpp" line="36"/>
         <source>Help</source>
         <translation>Helfen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="35"/>
-        <location filename="../mainwindow.cpp" line="183"/>
+        <location filename="../mainwindow.cpp" line="37"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="155"/>
+        <location filename="../mainwindow.cpp" line="159"/>
         <source>&amp;%1 %2</source>
         <translation>&amp;%1 %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="183"/>
+        <location filename="../mainwindow.cpp" line="187"/>
         <source>Developed by student ICTMS2-5
  Klimov Ivan Ilich</source>
         <translation>Entwickelt von Student ICTMS2-5
  Klimow Iwan Iljitsch</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="207"/>
+        <location filename="../mainwindow.cpp" line="187"/>
+        <source>Development of accounting software for companies serving the DEZ area</source>
+        <translation>Entwicklung von Buchhaltungssoftware für Unternehmen, die den DEZ-Bereich bedienen</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="209"/>
         <source>Crash Report</source>
         <translation>Absturzbericht</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="207"/>
+        <location filename="../mainwindow.cpp" line="209"/>
         <source>TableModel doesn&apos;t exist</source>
         <translation>TableModel existiert nicht</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="215"/>
+        <location filename="../mainwindow.cpp" line="217"/>
         <source>Deletion Error</source>
         <translation>Löschfehler</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="215"/>
+        <location filename="../mainwindow.cpp" line="217"/>
         <source>The table is empty</source>
         <translation>Die Tabelle ist leer</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="234"/>
+        <location filename="../mainwindow.cpp" line="236"/>
         <source>Таблица закрыта</source>
         <translation>Die Tabelle ist geschlossen</translation>
     </message>
@@ -229,7 +233,7 @@
 <context>
     <name>Mainwindow</name>
     <message>
-        <location filename="../mainwindow.cpp" line="153"/>
+        <location filename="../mainwindow.cpp" line="157"/>
         <source>English</source>
         <translation>Deutsch</translation>
     </message>
@@ -267,47 +271,47 @@
         <translation>Inaktiv</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="310"/>
+        <location filename="../mytablemodel.cpp" line="319"/>
         <source>id</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="312"/>
+        <location filename="../mytablemodel.cpp" line="321"/>
         <source>Company Name</source>
         <translation>Firmenname</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="314"/>
+        <location filename="../mytablemodel.cpp" line="323"/>
         <source>Taxpayer ID</source>
         <translation>Steuernummer</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="316"/>
+        <location filename="../mytablemodel.cpp" line="325"/>
         <source>service</source>
         <translation>Service</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="318"/>
+        <location filename="../mytablemodel.cpp" line="327"/>
         <source>Contact Name</source>
         <translation>Kontaktnamen</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="320"/>
+        <location filename="../mytablemodel.cpp" line="329"/>
         <source>Phone Number</source>
         <translation>Telefonnummer</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="322"/>
+        <location filename="../mytablemodel.cpp" line="331"/>
         <source>email</source>
         <translation>email</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="324"/>
+        <location filename="../mytablemodel.cpp" line="333"/>
         <source>Contract Date</source>
         <translation>Vertragsdatum</translation>
     </message>
     <message>
-        <location filename="../mytablemodel.cpp" line="326"/>
+        <location filename="../mytablemodel.cpp" line="335"/>
         <source>status</source>
         <translation>status</translation>
     </message>
@@ -373,6 +377,42 @@
         <location filename="../searchdialog.cpp" line="19"/>
         <source>Статус</source>
         <translation>Status</translation>
+    </message>
+</context>
+<context>
+    <name>ServiceTypeDelegate</name>
+    <message>
+        <location filename="../servicetypedelegate.cpp" line="15"/>
+        <source>Waste removal, Cleaning</source>
+        <translation>Abfallbeseitigung, Reinigung</translation>
+    </message>
+    <message>
+        <location filename="../servicetypedelegate.cpp" line="16"/>
+        <source>Road Repaires</source>
+        <translation>Straßenreparaturen</translation>
+    </message>
+    <message>
+        <location filename="../servicetypedelegate.cpp" line="17"/>
+        <source>Landscaping, Maintenance</source>
+        <translation>Landschaftsgestaltung, Instandhaltung</translation>
+    </message>
+    <message>
+        <location filename="../servicetypedelegate.cpp" line="18"/>
+        <source>Electricity, Water supply</source>
+        <translation>Strom, Wasserversorgung</translation>
+    </message>
+</context>
+<context>
+    <name>StatusTypeDelegate</name>
+    <message>
+        <location filename="../statustypedelegate.cpp" line="15"/>
+        <source>Active</source>
+        <translation>Aktiv</translation>
+    </message>
+    <message>
+        <location filename="../statustypedelegate.cpp" line="16"/>
+        <source>Inactive</source>
+        <translation>Inaktiv</translation>
     </message>
 </context>
 </TS>

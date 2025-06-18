@@ -262,10 +262,17 @@ bool MyTableModel::setData(const QModelIndex &index, const QVariant &value, int 
         }
         if(col == 3){
             company cp = companies.at(row);
-            if(value.toString() == "Waste removal, Cleaning")  cp.service = ServiceType::WasteRemoval;
-            if(value.toString() == "Road repairs")             cp.service = ServiceType::RoadRepairs;
-            if(value.toString() == "Landscaping, Maintenance") cp.service = ServiceType::Landscaping;
-            if(value.toString() == "Electricity, Water supply")cp.service = ServiceType::ElectricityWater;
+            if(value.toString() == "0" || value.value<ServiceType>() == ServiceType::WasteRemoval) cp.service = ServiceType::WasteRemoval;
+
+            else if ( (value.toString() == "1") || (value.canConvert<ServiceType>() && value.value<ServiceType>() == ServiceType::RoadRepairs) )
+            {
+                qDebug() << value.toString();
+                cp.service = ServiceType::RoadRepairs;
+            }
+            else if ( (value.toString() == "2") || (value.canConvert<ServiceType>() && value.value<ServiceType>() == ServiceType::Landscaping) )  cp.service = ServiceType::Landscaping;
+
+            else if ((value.toString() == "3") ||(value.canConvert<ServiceType>() && value.value<ServiceType>() == ServiceType::ElectricityWater) ) cp.service = ServiceType::ElectricityWater;
+
             companies.replace(index.row(), cp);
             }
         if(col == 4){
@@ -290,7 +297,9 @@ bool MyTableModel::setData(const QModelIndex &index, const QVariant &value, int 
         }
         if(col == 8){
             company cp = companies.at(row);
-            if(value == "Active") cp.status = StatusType::Active;
+            if(value.toString() == "0") cp.status = StatusType::Active;
+
+
             else cp.status = StatusType::Inactive;
 
             companies.replace(index.row(), cp);

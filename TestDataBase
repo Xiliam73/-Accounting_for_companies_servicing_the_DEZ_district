@@ -1,5 +1,5 @@
 ID;Company Name;Taxpayer ID;Service Type;Contact Person;Phone Number;Email;Contract Date;Status
-1;CleanCity ООО;123456;Waste removal, Cleaning;Петров Иван;+79001234567;info@cleancity.ru;15.01.2023;Active
+1;CleanCity ООО;123456;Landscaping, Maintenance;Петров Иван;+79001234567;info@cleancity.ru;15.01.2023;Active
 2;RoadMasters ООО;98765;Road repairs;Сидорова Елена;+79007654321;contact@roadmasters.ru;10.11.2022;Active
 3;GreenTerritory ЗАО;567890;Landscaping, Maintenance;Иванов Алексей;+79005556677;office@greenter.com;22.03.2024;Inactive
 4;UtilityService ООО;345678;Electricity, Water supply;Кузнецова Мария;+79008889900;support@utilityserv.org;05.07.2023;Active
@@ -18,5 +18,4 @@ ID;Company Name;Taxpayer ID;Service Type;Contact Person;Phone Number;Email;Contr
 17;TerraClean ООО;901235;Waste removal, Cleaning;Морозова Ольга;+79045678901;terra@terraclean.ru;03.11.2023;Active
 18;NatureCare ООО;789013;Landscaping, Maintenance;Орлова Виктория;+79112345678;care@naturecare.org;11.01.2024;Inactive
 19;RoadGuard ООО;456780;Road repairs;Соколов Артём;+79089012345;guard@roadguard.org;19.04.2024;Active
-20;UtilityPlus ООО;123457;Electricity, Water supply;Григорьев Пётр;+79156789012;plus@utilityplus.com;24.02.2024;Inactive
-0;;0;Waste removal, Cleaning;;+7()--;;01.01.2000;Inactive
+20;UtilityPlus ООО;123457;Electricity, Water supply;Григорьев Пётр;+79156789012;plus@utilityplus.com;24.02.2024;Active

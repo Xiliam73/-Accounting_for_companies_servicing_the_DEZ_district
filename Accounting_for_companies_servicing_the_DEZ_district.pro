@@ -16,15 +16,19 @@ SOURCES += \
     maskdelegate.cpp \
     mytablemodel.cpp \
     searchdialog.cpp \
-    spinboxdelegate.cpp
+    servicetypedelegate.cpp \
+    spinboxdelegate.cpp \
+    statustypedelegate.cpp
 
 HEADERS += \
+    ServiceTypeDelegate.h \
     dialogaddline.h \
     mainwindow.h \
     maskdelegate.h \
     mytablemodel.h \
     searchdialog.h \
-    spinboxdelegate.h
+    spinboxdelegate.h \
+    statustypedelegate.h
 
 FORMS += \
     dialogaddline.ui \

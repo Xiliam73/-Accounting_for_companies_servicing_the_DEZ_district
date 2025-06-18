@@ -1,6 +1,8 @@
 #include "mainwindow.h"
+#include "ServiceTypeDelegate.h"
 #include "searchdialog.h"
 #include "spinboxdelegate.h"
+#include "statustypedelegate.h"
 #include "ui_mainwindow.h"
 #include <QFileDialog>
 #include <QFile>
@@ -65,10 +67,12 @@ MainWindow::MainWindow(QWidget *parent)
     // Устанавливаем делегаты (уже после установки модели)
     ui->tableView->setItemDelegateForColumn(0, new SpinBoxDelegate(ui->tableView));
     ui->tableView->setItemDelegateForColumn(2, new SpinBoxDelegate(ui->tableView));
+    ui->tableView->setItemDelegateForColumn(3, new ServiceTypeDelegate(this));
     ui->tableView->setItemDelegateForColumn(5, new MaskDelegate("+7(000)000-00-00", this));
+    ui->tableView->setItemDelegateForColumn(8, new StatusTypeDelegate(this));
 
 
-
+    qRegisterMetaType<MyTableModel::ServiceType>("ServiceType");
 }
 
 MainWindow::~MainWindow()
@@ -180,7 +184,7 @@ void MainWindow::saveFile(const QString &fileName)
 
 void MainWindow::dialogAbout()
 {
-    QMessageBox::information(this,tr("Разработка ПО учёта компаний, обслуживающих район ДЭЗ"),tr("Developed by student ICTMS2-5\n Klimov Ivan Ilich"));
+    QMessageBox::information(this,tr("Development of accounting software for companies serving the DEZ area"),tr("Developed by student ICTMS2-5\n Klimov Ivan Ilich"));
 }
 
 void MainWindow::on_actionEdit_triggered(bool checked)
